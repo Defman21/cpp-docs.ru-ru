@@ -87,10 +87,10 @@ ms.locfileid: "97221219"
 [Класс CComQIPtr](../atl/reference/ccomqiptr-class.md)<br/>
 Похож на `CComPtr`, но также предоставляет упрощенный синтаксис для вызова `QueryInterface` COM-объекта. Дополнительные сведения см. [в разделе инструкции. Создание и использование экземпляров CComPtr и CComQIPtr](how-to-create-and-use-ccomptr-and-ccomqiptr-instances.md).
 
-[Класс Ккомхеапптр](../atl/reference/ccomheapptr-class.md)<br/>
+[Класс CComHeapPtr](../atl/reference/ccomheapptr-class.md)<br/>
 Интеллектуальный указатель на объекты, которые используют `CoTaskMemFree` для освобождения памяти.
 
-[Класс Ккомгитптр](../atl/reference/ccomgitptr-class.md)<br/>
+[Класс CComGITPtr](../atl/reference/ccomgitptr-class.md)<br/>
 Интеллектуальный указатель для интерфейсов, получаемых из глобальной таблицы интерфейсов (GIT).
 
 [Класс _com_ptr_t](com-ptr-t-class.md)<br/>
@@ -100,19 +100,19 @@ ms.locfileid: "97221219"
 
 Помимо смарт-указателей для COM-объектов, ATL также определяет смарт-указатели и коллекции смарт-указателей для простых старых объектов C++ (POCO). В классическом программировании Windows эти типы являются полезными альтернативами для коллекций стандартной библиотеки C++, особенно если переносимость кода не требуется или если не требуется смешивать модели программирования стандартной библиотеки C++ и ATL.
 
-[Класс Каутоптр](../atl/reference/cautoptr-class.md)<br/>
+[Класс CAutoPtr](../atl/reference/cautoptr-class.md)<br/>
 Интеллектуальный указатель, принудительно реализующий уникальное владение путем переноса владения на копию. Сравним с нерекомендуемым классом `std::auto_ptr`.
 
-[Класс Чеапптр](../atl/reference/cheapptr-class.md)<br/>
+[Класс CHeapPtr](../atl/reference/cheapptr-class.md)<br/>
 Интеллектуальный указатель для объектов, которые выделены с помощью функции [malloc](../c-runtime-library/reference/malloc.md) C.
 
-[Класс Каутовекторптр](../atl/reference/cautovectorptr-class.md)<br/>
+[Класс CAutoVectorPtr](../atl/reference/cautovectorptr-class.md)<br/>
 Интеллектуальный указатель для массивов, память для которых выделяется с помощью `new[]`.
 
-[Класс Каутоптраррай](../atl/reference/cautoptrarray-class.md)<br/>
+[Класс CAutoPtrArray](../atl/reference/cautoptrarray-class.md)<br/>
 Класс, инкапсулирующий массив элементов `CAutoPtr`.
 
-[Класс Каутоптрлист](../atl/reference/cautoptrlist-class.md)<br/>
+[Класс CAutoPtrList](../atl/reference/cautoptrlist-class.md)<br/>
 Класс, инкапсулирующий методы для управления списком узлов `CAutoPtr`.
 
 ## <a name="see-also"></a>См. также раздел
